@@ -1,0 +1,15 @@
+import math
+print("1.Triangle")
+b=int(input("enter the breadth of the triangle"))
+h=int(input("enter the height of the triangle"))
+print("2.Rectangle")
+l=int(input("enter the length of the rectangle"))
+b1=int(input("enter the bread vc vc vc vc vc vcth of the rectangle"))
+print("3.Circle")
+r=int(input("enter the radius of the circle"))
+triangle=(b*h)/2
+rectangle=(l*b)
+circle=(math.pi*r*r)
+print("area of triangle",triangle)
+print("area of rectangle",rectangle)
+print("area of circle",circle)
