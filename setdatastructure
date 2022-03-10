@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    int i,j,n,a[50],b[50],n1,n3,ch,choo,inter,fun,flag,diff,k;
+    printf("enter the size of the set 1 \n");
+    scanf("%d",&n);
+    printf("enter the elements of set 1 \n");
+    for(i=0;i<n;i++)
+        scanf("%d",&a);
+    printf("enter the size of the set 2 \n");
+    scanf("%d",&n1);
+    printf("enter the elements of set 2 \n");
+    for(i=0;i<n1;i++)
+        scanf("%d",&b);
+           printf("display %d \n",&a);
+        printf("enter the choice \n 1.Union \n 2.Intersection \n 3.Difference \n");
+        scanf("%d",&ch);
+        switch(choo)
+        {
+        case 1: fun;
+                flag=0;
+                break;
+        case 2: inter;
+                flag=0;
+                break;
+        case 3: diff;
+                flag=0;
+                break;
+        default:exit;
+
+    }
+
+    n3=a[i];
+    printf("union is",n3);
+printf("the first set is",&n);
+
+
+printf("\n you want to continue or not y/n");
+}
+
+
